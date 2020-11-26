@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Sintel",
+    "description": "A lonely young woman, Sintel, helps and befriends a dragon, whom she calls Scales. But when he is kidnapped by an adult dragon, Sintel decides to embark on a dangerous quest to find her lost friend Scales.",
+    "video": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+    "release": 2010
+  },
+  {
+    "id": 2,
+    "name": "Cosmos Laundromat",
+    "description": "On a desolate island, suicidal sheep Franck meets his fate in a quirky salesman, who offers him the gift of a lifetime. Little does he know that he can only handle this much 'lifetime'",
+    "video": "https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8",
+    "release": 2015
+  },
+  {
+    "id": 3,
+    "name": "Pigeon: Impossible",
+    "description": "The tale of Walter, a rookie secret agent faced with a problem seldom covered in basic training: what to do when a curious pigeon gets trapped inside your multi-million dollar, government-issued nuclear briefcase.",
+    "video": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+    "release": 2009
+  },
+  {
+    "id": 4,
+    "name": "Brain Divided",
+    "description": "A nerdy man goes on a blind date to a restaurant. The place is great and the girl is beautiful. If only the two sides of his brain (seen here as two tiny creatures running the brain's command center) could work together for once.",
+    "video": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+    "release": 2013
+  },
+  {
+    "id": 5,
+    "name": "Alarm",
+    "description": "Snooze buttons, sunlight...the inescapable cacophony of alarm alerts: waking up in the morning is a battle between the present and the future state of mind. A dream-like war with yourself and other objects that seem to take a life of its own.",
+    "video": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+    "release": 2009
+  },
+  {
+    "id": 6,
+    "name": "Mr Indifferent ",
+    "description": "A man who doesn't care for anyone unexpectedly has a change of heart when he saves an old woman's life.",
+    "movie": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+    "release": 2018
+  }
+]

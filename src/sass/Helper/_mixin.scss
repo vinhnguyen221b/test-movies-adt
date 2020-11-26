@@ -1,0 +1,46 @@
+@mixin text-style($color-text, $fs) {
+  color: $color-text;
+  font-size: $fs;
+}
+
+@mixin fontFace($myFont, $src, $fs, $fw) {
+  @font-face {
+    font-family: $myFont;
+    src: url("#{$src}.woff2") format("woff2"),
+      url("#{$src}.woff") format("woff"), url("#{$src}.ttf") format("truetype");
+    font-style: $fs;
+    font-weight: $fw;
+  }
+}
+
+@mixin mediaQueryMax($screen) {
+  //extra-large: extra-large
+  @if map-has-key($map: $breakpoints, $key: $screen) {
+    //value:1200px
+    $value: map-get(
+      $map: $breakpoints,
+      $key: $screen,
+    );
+    @media screen and (max-width: $value) {
+      @content;
+    }
+  } @else {
+    @warn "`#{$screen} khong ton tai`";
+  }
+}
+
+@mixin mediaQueryMin($screen) {
+  //extra-large: extra-large
+  @if map-has-key($map: $breakpoints, $key: $screen) {
+    //value:1200px
+    $value: map-get(
+      $map: $breakpoints,
+      $key: $screen,
+    );
+    @media screen and (min-width: $value) {
+      @content;
+    }
+  } @else {
+    @warn "`#{$screen} khong ton tai`";
+  }
+}

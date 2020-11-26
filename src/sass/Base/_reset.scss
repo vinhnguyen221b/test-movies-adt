@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+// @include fontFace(
+//   "robotoFont",
+//   "../Vendor/font/RobotoCondensed-Regular",
+//   normal,
+//   normal
+// );
+
+body {
+  @include text-style($color-white-0, $fs-0);
+  background: $color-black-0;
+  line-height: 1;
+  //   font-family: "robotoFont" !important;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
